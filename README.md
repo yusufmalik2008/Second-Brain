@@ -133,7 +133,7 @@ Lihat [CONTRIBUTING.md](./CONTRIBUTING.md) buat detailnya ya!
 
 ## Author
 
-**Yusuf Malik** — Siswa SMA Kelas XI (16 tahun)  
+**Yusuf Malik** 
 GitHub: [@yusufmalik2008](https://github.com/yusufmalik2008)
 
 Dibuat Desember 2025 — awalnya cuma tugas sekolah, sekarang jadi proyek serius!
@@ -143,13 +143,3 @@ Dibuat Desember 2025 — awalnya cuma tugas sekolah, sekarang jadi proyek serius
 **Kasih Star dong kalau suka!** Bikin anak kelas 11 semangat nge-push tiap hari
 ```
 
-Tinggal pilih:
-- Mau internasional → pakai `README.md` (English)
-- Mau lokal + ramah temen sekelas → pakai `README-id.md`
-
-Atau taruh dua-duanya juga boleh biar keliatan semakin pro wkwk
-
-Jangan lupa upload screenshot keren ke `public/preview.png` biar previewnya muncul langsung di GitHub!
-
-Push sekarang juga, nanti aku yang pertama kasih Star
-Semangat bro, kamu bakal jadi inspirasi banyak anak SMA lain!
