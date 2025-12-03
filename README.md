@@ -2,13 +2,12 @@
 ```md
 # 🧠 Second Brain — Personal Task & Knowledge Manager
 
+A SaaS (Software as Service) software engineering demo by Yusuf Malik XI-2, with the framework NextJS + Prisma + Shadcn/ui + Typescript stack. 04/12/2025.
+
 A beautiful, modern **Second Brain / Todo + Notes** SaaS demo built with the latest Next.js ecosystem. Inspired by Tiago Forte's PARA method and productivity systems.
 
 Live demo → [https://second-brain-joseph.vercel.app](https://second-brain-joseph.vercel.app)  
 (Replace with your actual Vercel URL)
-
-![Preview](public/preview.png)  
-*Screenshot · December 2025*
 
 ## ✨ Features
 
