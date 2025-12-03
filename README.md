@@ -6,7 +6,9 @@ A SaaS (Software as Service) software engineering demo by Yusuf Malik XI-2, with
 A beautiful, modern **Second Brain / Todo + Notes** app inspired by Tiago Forte's PARA method.  
 Built from a high-school project into a full-featured open-source SaaS demo.
 
-Live Demo → [https://second-brain-joseph.vercel.app](https://second-brain-joseph.vercel.app)
+Live Demo on Vercel & Netlify → [https://second-brain-joseph.vercel.app](https://second-brain-joseph.vercel.app)
+                                [https://second-brain-next.netlify.app](https://second-brain-next.netlify.app)
+
 
 ## Features
 
@@ -93,7 +95,9 @@ A SaaS (Software as Service) software engineering demo by Yusuf Malik XI-2, with
 
 Aplikasi **Second Brain** modern dan cantik, terinspirasi dari metode PARA-nya Tiago Forte.  
 
-Live Demo → [https://second-brain-joseph.vercel.app](https://second-brain-joseph.vercel.app)
+
+Live Demo di Vercel & Netlify → [https://second-brain-joseph.vercel.app](https://second-brain-joseph.vercel.app)
+                                [https://second-brain-next.netlify.app](https://second-brain-next.netlify.app)
 
 ## Fitur
 
