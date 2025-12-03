@@ -1,180 +1,155 @@
-
 ```md
-# 🧠 Second Brain — Personal Task & Knowledge Manager
+# Second Brain — Personal Task & Knowledge Manager
 
 A SaaS (Software as Service) software engineering demo by Yusuf Malik XI-2, with the framework NextJS + Prisma + Shadcn/ui + Typescript stack. 04/12/2025.
 
-A beautiful, modern **Second Brain / Todo + Notes** SaaS demo built with the latest Next.js ecosystem. Inspired by Tiago Forte's PARA method and productivity systems.
+A beautiful, modern **Second Brain / Todo + Notes** app inspired by Tiago Forte's PARA method.  
+Built from a high-school project into a full-featured open-source SaaS demo.
 
-Live demo → [https://second-brain-joseph.vercel.app](https://second-brain-joseph.vercel.app)  
-(Replace with your actual Vercel URL)
+Live Demo → [https://second-brain-joseph.vercel.app](https://second-brain-joseph.vercel.app)
 
-## ✨ Features
+## Features
 
-- ⚡ Blazing fast Next.js 14 + App Router
-- 🎨 Beautiful UI with **shadcn/ui** + **Tailwind CSS**
-- 🗃️ Full CRUD for tasks, projects, areas, and notes
-- 💾 SQLite via **Prisma ORM** (dev) — ready to scale to PostgreSQL
-- 🔐 Authentication ready (easy to add NextAuth/Clerk)
-- 🌓 Light/Dark mode with next-themes
-- ⚛️ Fully typed with TypeScript
-- 🎯 Icons from **lucide-react**
+- Blazing fast Next.js 14 with App Router & Server Components
+- Gorgeous UI built with **shadcn/ui** + **Tailwind CSS**
+- Full CRUD for **Tasks, Projects, Areas, Resources, Archives, and Notes**
+- SQLite via **Prisma ORM** (dev) — ready to scale to PostgreSQL/PlanetScale
+- Light & Dark mode (next-themes)
+- Fully typed with **TypeScript**
+- Beautiful icons from **lucide-react**
 - Accessible components powered by **Radix UI**
+- Mobile-responsive sidebar & layout
+- Ready for authentication (NextAuth/Clerk/Lucia)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-| Technology         | Purpose                          |
-|--------------------|----------------------------------|
-| Next.js 14         | App Router + Server Components   |
-| TypeScript         | Type safety                      |
-| Prisma             | ORM + SQLite (dev)               |
-| shadcn/ui          | Beautiful accessible components  |
-| Tailwind CSS       | Styling                          |
-| lucide-react       | Icon library                     |
-| Radix UI           | Unstyled accessible primitives   |
-| Vercel             | Deployment & preview             |
+| Tech             | Purpose                          |
+|------------------|----------------------------------|
+| Next.js 14       | App Router + React Server Components |
+| TypeScript       | Type safety                      |
+| Prisma           | ORM + SQLite → PostgreSQL ready |
+| shadcn/ui        | UI components                    |
+| Tailwind CSS     | Styling                          |
+| lucide-react     | Icons                            |
+| Radix UI         | Accessible primitives            |
+| Vercel           | Deployment                       |
 
-## 🚀 Quick Start
-
-### 1. Clone & install
+## Quick Start
 
 ```bash
 git clone https://github.com/yusufmalik2008/Second-Brain.git
 cd Second-Brain
 npm install
-```
-
-### 2. Set up database
-
-```bash
 npx prisma migrate dev --name init
-# or just run dev, it will auto-migrate
-```
-
-### 3. Run locally
-
-```bash
 npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000)
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 src/
-├── app/              → App Router pages & layouts
-├── components/       → shadcn/ui & custom components
-├── lib/              → utils, prisma client
-├── prisma/           → schema & migrations
-└── types/            → global types
+├── app/          → Pages & layouts (App Router)
+├── components/   → shadcn/ui + custom components
+├── lib/          → Utils & Prisma client
+├── prisma/       → Schema & migrations
+└── types/        → Global TypeScript types
 ```
 
-## 🌍 Deployed With
+## What's Next? (Help Wanted!)
 
-[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
+- [ ] Authentication
+- [ ] Drag & drop (dnd-kit)
+- [ ] Markdown notes editor
+- [ ] Search & tags
+- [ ] Export/Import data
+- [ ] PWA + offline support
 
-One-click deploy coming soon!
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for details!
 
-## 🤝 Contributing
+## Deploy on Vercel
 
-Contributions are very welcome! See [`CONTRIBUTING.md`](CONTRIBUTING.md) for how to get started.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yusufmalik2008/Second-Brain)
 
-## 👨‍💻 Author
+## Author
 
-**Yusuf Malik** – XI-2 Student | Full-Stack Enthusiast  
+**Yusuf Malik** — High School Student (Grade 11) | Full-Stack Enthusiast  
 GitHub: [@yusufmalik2008](https://github.com/yusufmalik2008)
 
-Built with ❤️ in December 2025 as a software engineering class project turned passion project.
+Built with love in December 2025 — started as a school project, now open-source!
 
 ---
 
-**Star this repo if you like it!** It really motivates me to keep building ⭐
+**Star this repo if you like it!** It really motivates a 16-year-old developer to keep building
 ```
 
-### CONTRIBUTING.md (copy-paste ready)
+### 2. README-id.md (Bahasa Indonesia — buat yang mau full lokal vibe)
 
 ```md
-# 🤝 Contributing to Second Brain
+# Second Brain — Aplikasi Todo + Catatan Pribadi
 
-Thank you for your interest in contributing! This project is a school demo turned open-source passion project, and any help is highly appreciated.
+A SaaS (Software as Service) software engineering demo by Yusuf Malik XI-2, with the framework NextJS + Prisma + Shadcn/ui + Typescript stack. 04/12/2025.
 
-## How to Contribute
+Aplikasi **Second Brain** modern dan cantik, terinspirasi dari metode PARA-nya Tiago Forte.  
 
-### 1. Fork & Clone
+Live Demo → [https://second-brain-joseph.vercel.app](https://second-brain-joseph.vercel.app)
+
+## Fitur
+
+- Super cepet pake **Next.js 14** + App Router
+- Tampilan cakep banget pake **shadcn/ui** + **Tailwind CSS**
+- Bisa CRUD **Tugas, Project, Area, Resource, Arsip, dan Catatan**
+- Pakai **SQLite + Prisma** (bisa diganti PostgreSQL kapan aja)
+- Mode terang & gelap
+- 100% TypeScript
+- Icon cantik dari **lucide-react**
+- Responsif di HP + laptop
+- Siap ditambah login (NextAuth/Clerk)
+
+## Cara Jalanin di Local
+
 ```bash
 git clone https://github.com/yusufmalik2008/Second-Brain.git
 cd Second-Brain
-```
-
-### 2. Create a Branch
-```bash
-git checkout -b feature/your-amazing-feature
-# or
-git checkout -b fix/some-bug
-```
-
-### 3. Make Your Changes
-- Follow the existing code style (Prettier + ESLint already configured)
-- Use shadcn/ui components when possible
-- Keep TypeScript strict
-
-### 4. Test Locally
-```bash
+npm install
+npx prisma migrate dev --name init
 npm run dev
-# make sure everything still works!
 ```
 
-### 5. Commit (conventional commits preferred)
-```bash
-git commit -m "feat: add dark mode toggle"
-# or "fix: mobile sidebar overflow"
+Buka [http://localhost:3000](http://localhost:3000)
+
+## Mau Bantu Ngembangin?
+
+Kebutuhan terbesar saat ini:
+- [ ] Login / autentikasi
+- [ ] Bisa drag & drop tugas
+- [ ] Editor catatan pake Markdown
+- [ ] Fitur cari + tag
+- [ ] Export data
+- [ ] Jadiin PWA (bisa offline)
+
+Lihat [CONTRIBUTING.md](./CONTRIBUTING.md) buat detailnya ya!
+
+## Author
+
+**Yusuf Malik** — Siswa SMA Kelas XI (16 tahun)  
+GitHub: [@yusufmalik2008](https://github.com/yusufmalik2008)
+
+Dibuat Desember 2025 — awalnya cuma tugas sekolah, sekarang jadi proyek serius!
+
+---
+
+**Kasih Star dong kalau suka!** Bikin anak kelas 11 semangat nge-push tiap hari
 ```
 
-### 6. Push & Open Pull Request
-- Push to your fork
-- Open a PR against `main`
-- Fill the PR template (it will appear automatically)
+Tinggal pilih:
+- Mau internasional → pakai `README.md` (English)
+- Mau lokal + ramah temen sekelas → pakai `README-id.md`
 
-## Areas You Can Help With
+Atau taruh dua-duanya juga boleh biar keliatan semakin pro wkwk
 
-- [ ] Add authentication (NextAuth.js / Clerk)
-- [ ] Switch to PostgreSQL + Prisma accelerate
-- [ ] Add drag & drop with @dnd-kit
-- [ ] Implement search & tags
-- [ ] Add markdown notes editor
-- [ ] Mobile responsiveness improvements
-- [ ] Write tests (Playwright / Jest)
-- [ ] Improve accessibility
+Jangan lupa upload screenshot keren ke `public/preview.png` biar previewnya muncul langsung di GitHub!
 
-## Code Style
-
-This project uses:
-- Prettier
-- ESLint (with Next.js + TypeScript config)
-- shadcn/ui component patterns
-
-Just run `npm run lint` and `npm run format` before committing.
-
-## Questions?
-
-Feel free to open an issue first if you're unsure about anything!
-
-Thanks again for contributing — you're helping make this demo even better! 🚀
-
-— Yusuf
-```
-
-### Bonus Tips to Make Your Repo Look Pro
-
-1. Add a screenshot at `public/preview.png` (or `.jpg`) and it will show up beautifully in the README.
-2. Add these GitHub topics:
-   ```
-   nextjs, typescript, prisma, shadcn-ui, tailwindcss, vercel, saas, second-brain, productivity
-   ```
-3. Add a license (MIT is perfect for demos):
-   Create `LICENSE` file with MIT license (you can copy from GitHub template).
-
-Your repo will instantly go from "school project" to "this kid is hireable" vibe. Trust me — recruiters and teachers notice this stuff.
-
-Let me know when you push it live, I’d love to star it! 🚀
+Push sekarang juga, nanti aku yang pertama kasih Star
+Semangat bro, kamu bakal jadi inspirasi banyak anak SMA lain!
